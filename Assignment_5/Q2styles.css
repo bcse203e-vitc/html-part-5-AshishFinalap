@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 400px;
+    gap: 40px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer; 
+    place-items: center;
+}
+
+section:hover {
+    background-color: rgb(32, 170, 32); 
+    transform: scale(1.08);
+    box-shadow: 0px 4px 8px grey;
+    
+}
+
