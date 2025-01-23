@@ -1,0 +1,39 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.gradient-button {
+    background: linear-gradient(45deg, #ff6b6b, #f0e130);
+    color: white;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #f0e130, #ff6b6b);
+}
+
+.border-change-button {
+    background-color: white;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.border-change-button:hover {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.glowing-button {
+    background-color: #ff4757;
+    color: white;
+    box-shadow: 0 0 5px #ff4757, 0 0 10px #ff4757, 0 0 20px #ff4757;
+}
+
+.glowing-button:hover {
+    box-shadow: 0 0 10px #ff6b6b, 0 0 20px #ff6b6b, 0 0 40px #ff6b6b;
+}
